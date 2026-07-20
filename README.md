@@ -58,6 +58,8 @@ cp .env.example .env   # then fill in your Alpaca paper-trading keys
 python -m src.bot
 ```
 
+TO SHUT OFF: Press "Ctrl+C"
+
 ## Running tests
 
 ```bash

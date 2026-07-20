@@ -29,6 +29,7 @@ def run_once(data_feed, strategy, risk_manager, broker, store) -> None:
     for symbol in SYMBOLS:
         bars = data_feed.get_recent_bars(symbol)
         signal = strategy.decide(symbol, bars)
+        print(f"[check] {symbol} @ {current_price:.2f} -> {signal.value}")
 
         if signal == Signal.HOLD:
             continue
