@@ -1,7 +1,7 @@
 """
-Tests run against fake data only -- no Alpaca credentials needed.
+Tests run against fake data only - Alpaca not required yu.
 This is possible specifically because strategy and risk are decoupled
-from the broker; that's the payoff of the architecture, made concrete.
+from the broker, which allows furture robhinhood installtion hopefully.
 """
 import sys
 from pathlib import Path
